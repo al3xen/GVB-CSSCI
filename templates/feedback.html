@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block unique_body %}
+    <div class="feedback-form-container">
+        <form class="feedback-form">
+            <h2 style="center">Feedback Form</h2>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Feedback</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+{%endblock%}

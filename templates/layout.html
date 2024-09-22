@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>GVB prototype</title>
+        <link rel="stylesheet" href="/static/css/styles.css">
+    </head>
+    <div class="content">
+      <body>
+          <div class="navbar">
+              <div class="dropdown">
+                <button class="dropbtn">
+                  <img src="/static/img/menu.png">
+                </button>
+                <div class="dropdown-content">
+                  <a href="/">Homepage</a>
+                  <a href="/about">About Us</a>
+                  <a href="/levels">Levels</a>
+                  <a href="/profile">Profile</a>
+                  <a href="/travel">Travel Stats</a>
+                  <a href="/rewards">Rewards</a>
+                  <a href="/support">Support</a>
+                </div>
+              </div>
+              <div class="navlogo"><a href="/"><img src="/static/img/gvblogo.png" alt="GVB Logo" class="gvblogo"></a></div>
+            </div>
+          <main>
+              {%block unique_body%}
+              {%endblock%}
+          </main>
+          <footer class="pagefooter">
+            <button class="abutton" onclick="window.location.href='/terms'">Terms & Conditions</button>
+            <button class="abutton" onclick="window.location.href='/support'">Support</button>
+          </footer>
+      </body>
+    </div>
+
+</html>

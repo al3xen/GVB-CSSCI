@@ -1,0 +1,88 @@
+{%extends "layout.html"%}
+{%block unique_body%}
+    <h1 class="title">Your Profile</h1>
+<div class="leftbox">
+    <div class="yourprofile" id="avatarcontainer" style="margin-top: 5%;">
+        <div class="profilebox"><img src="/static/img/user.png"></div> <!-- replace with profile photo for flask here-->
+        <p class="profiletext">Stephan</p>
+    </div>
+    <div class="yourprofile" id="starcontainer">
+        <p id="startext">Level</p>
+        <div class="starbox"><img src="/static/img/star.png"><p class="lvtxt">3</p></div> <!-- replace with star photo for flask here-->
+        <div class="bluebarbg" id="bluebar"><div class="bluebarfg"></div>
+        </div>
+    </div>
+    <div class="yourprofile">
+        <div class="pointStructure">
+            <p class="pointsT">Total Tokens
+                <p style="text-align: center; margin-top: -5%;">256</p>
+            </p>
+        </div>
+        <div class="pointStructure">
+            <p class="pointsS">Spendable Tokens
+                <p style="text-align: center; margin-top: -5%;">84</p>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="rightbox">
+    <p id="boxtitle">Friends</p>
+    <div class="box-container">
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div> 
+                <p class="rightnameStructure">Sherri</p>
+            </div>
+        </div> 
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div>
+                <p class="rightnameStructure">Marc</p>
+            </div>
+        </div> 
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div> 
+                <p class="rightnameStructure">Elliot</p>
+            </div>
+        </div> 
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div> 
+                <p class="rightnameStructure">Eva</p>
+            </div>
+        </div> 
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div>                
+                    <p class="rightnameStructure">Adrian</p>
+            </div>
+        </div> 
+        <div class="box"> 
+            <div class="boxstyle"><img src="/static/img/user.png"></div>
+            <div class="starboxStructure">
+                <div class="boxstyle-item">
+                    <div class="starbox mini"><img src="/static/img/star.png"><p class="lvtxtmini">3</p></div> <!-- replace with star photo for flask here-->
+                </div> 
+                <p class="rightnameStructure">Ida</p>
+            </div>
+        </div>
+    </div>
+</div>
+{%endblock%}

@@ -1,0 +1,48 @@
+{%extends "layout.html"%}
+{%block unique_body%}
+
+<main>
+    <h1 class="title">Support</h1>
+    <section class="faq">
+        <h3>FAQ's</h3>
+        <details>
+            <summary>How does it work?</summary>
+            <p>Miles/Kilometres crossed through public transport is converted into tokens. These tokens are expendable and can be converted to rewards that are available at various stations & locations close to GVB.</p>
+        </details>
+        <details>
+            <summary>Who can see my data?</summary>
+            <p>Your data will only be share to GVB in order to procure a summary of your trips. Data between 'Friends' will not be seen as this compromises your privacy.</p>
+        </details>
+        <details>
+            <summary>How to claim rewards?</summary>
+            <p>All rewards available at the moment will be highlighted. Click to activate it. Tokens from wallet will be removed. Use QR code provided at checkout to use it. (Ex. Coffeecompany pay with QR code)</p>
+        </details>
+        <details>
+            <summary>What rewards are available?</summary>
+            <p>Available rewards will be shown in your account under the rewards section. Click on any to know more.</p>
+        </details>
+        <details>
+            <summary>How to delete account?</summary>
+            <p>To delete your account, contact customer support with your request and account details.</p>
+        </details>
+        <details>
+            <summary>Bank account privacy concerns</summary>
+            <p>Your bank details are encrypted and secured according to the latest privacy regulations.</p>
+        </details>
+    </section>
+
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <ul>
+            <li>📞 +31 62974992</li>
+            <li>📧 ana.contreras.estrada@student.uva.nl</li>
+        </ul>
+        <button onclick="window.location.href='/feedback'">Feedback Form</button>
+        <button onclick="window.location.href='https://www.gvb.nl/'">GVB Website</button>
+    </section>
+
+    <div class="clearfix"></div>
+
+</main>
+
+{%endblock%}
